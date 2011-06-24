@@ -1,0 +1,9 @@
+This Git repository includes all of the source code used in creating a metagrid (MVC approach) within EXTJS 4.
+
+You need to run from the EXTJS4 examples/app directory.
+
+This example is my first attempt at MVC in EXTJS4 so please understand there will be room for a lot of improvement.
+
+I have also included a re-factor of a notification UX as the original would not run in EXTJS4.  
+
+
