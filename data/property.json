@@ -1,0 +1,187 @@
+{
+	"success": true,
+	"total": "353",
+	/*quick draft so I kept the metadata in the PropertyModel.js*/
+	/*"metaData": {
+        "fields": [],
+        "root": "data" 
+    },*/
+    "columns": [
+        {
+				"header": "Property ID",
+				"dataIndex": "PRPTY_ID",
+				"width": 75,
+				"hidden": true
+			},{
+				"header": "Owner",
+				"dataIndex": "PRPTY_OWNR_ID",
+				"width": 200,
+				"editor": {
+					"xtype": "textfield",
+					"allowBlank": false,
+					"emptyText": "Please enter.",
+					"selectOnFocus": true,
+					"maxLength": 50
+				}
+			},{
+				"header": "Name",
+				"dataIndex": "PRPTY_NM",
+				"width": 200,
+				"editor": {
+					"xtype": "textfield",
+					"allowBlank": false,
+					"emptyText": "Please enter.",
+					"selectOnFocus": true,
+					"maxLength": 50
+				}
+			},{
+				"header": "Value",
+				"dataIndex": "PRPTY_VAL_TXT",
+				"width": 250,
+				"editor": {
+					"xtype": "textareafield",
+        			"grow": true,
+					"allowBlank": false,
+					"emptyText": "Please enter.",
+					"selectOnFocus": true,
+					"maxLength": 1000
+				}
+			},{
+				"header": "Description",
+				"dataIndex": "PRPTY_DESC",
+				"width": 250,
+				"editor": {
+					"xtype": "textfield",
+					"allowBlank": false,
+					"emptyText": "Please enter.",
+					"selectOnFocus": true,
+					"maxLength": 1000
+				}
+			},{
+				"header": "Initial Value",
+				"dataIndex": "PRPTY_INIT_VAL_TXT",
+				"width": 250,
+				"editor": {
+					"xtype": "textfield",
+					"allowBlank": false,
+					"emptyText": "Please enter.",
+					"selectOnFocus": true,
+					"maxLength": 1000
+				}
+			},{
+				"header": "Auto",
+				"dataIndex": "PRPTY_ATMTC_LOAD_CD",
+				"width": 50,
+				"editor": {
+					"xtype": "combo",
+					"triggerAction": "all",
+					"lazyRender": true,
+					"listClass": "x-combo-list-small",
+					"editable": false,
+					"store": [["Y", "Y"], ["N", "N"]],
+				}
+			} 
+    ],
+	"data": [
+		{
+			"PRPTY_OWNR_ID": "PROD_TYPE_CD",
+			"PRPTY_VAL_TXT": "04",
+			"PRPTY_ID": "273",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "4",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "4",
+			"key": "273"
+		}, {
+			"PRPTY_OWNR_ID": "PROD_TYPE_MEDSTAT_CD",
+			"PRPTY_VAL_TXT": "High Deductible (HSA)",
+			"PRPTY_ID": "189",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "8",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "8",
+			"key": "189"
+		}, {
+			"PRPTY_OWNR_ID": "XREF_TRGT_CD_VAL_1_TXT",
+			"PRPTY_VAL_TXT": "DRG",
+			"PRPTY_ID": "325",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "DRG",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "NA",
+			"key": "325"
+		}, {
+			"PRPTY_OWNR_ID": "ECR_SCD_EXCPTN_CD",
+			"PRPTY_VAL_TXT": "Delete after initial load",
+			"PRPTY_ID": "319",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "X",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "NA",
+			"key": "319"
+		}, {
+			"PRPTY_OWNR_ID": "THRSHLD_ID",
+			"PRPTY_VAL_TXT": "HOUSE",
+			"PRPTY_ID": "159",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "HOUSE",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "HOUSE",
+			"key": "159"
+		}, {
+			"PRPTY_OWNR_ID": "RPTG_MSTR_SGMNTN_MNTHS_NBR",
+			"PRPTY_VAL_TXT": "-06",
+			"PRPTY_ID": "148",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "-6",
+			"PRPTY_DESC": "-6",
+			"PRPTY_INIT_VAL_TXT": "-4",
+			"key": "148"
+		}, {
+			"PRPTY_OWNR_ID": "SYSTEM",
+			"PRPTY_VAL_TXT": "true",
+			"PRPTY_ID": "360",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "BYPASS_GET_MBR_CNT",
+			"PRPTY_DESC": "This switch will bypass the getMemberCount query.",
+			"PRPTY_INIT_VAL_TXT": "true",
+			"key": "360"
+		}, {
+			"PRPTY_OWNR_ID": "ECR_RGN_CD",
+			"PRPTY_VAL_TXT": "West",
+			"PRPTY_ID": "27",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "West",
+			"PRPTY_DESC": "West",
+			"PRPTY_INIT_VAL_TXT": "West",
+			"key": "27"
+		}, {
+			"PRPTY_OWNR_ID": "ECR_RGN_CD",
+			"PRPTY_VAL_TXT": "All",
+			"PRPTY_ID": "29",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "All",
+			"PRPTY_DESC": "All",
+			"PRPTY_INIT_VAL_TXT": "All",
+			"key": "29"
+		}, {
+			"PRPTY_OWNR_ID": "APP",
+			"PRPTY_VAL_TXT": "ersu/unprotected/login.jsp",
+			"PRPTY_ID": "45",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "APP_URL",
+			"PRPTY_DESC": "application URL",
+			"PRPTY_INIT_VAL_TXT": "ecr/dev/login.html",
+			"key": "45"
+		}, {
+			"PRPTY_OWNR_ID": "RPTG_RVW_MNTHS_NBR",
+			"PRPTY_VAL_TXT": "09",
+			"PRPTY_ID": "72",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "9",
+			"PRPTY_DESC": "9",
+			"PRPTY_INIT_VAL_TXT": "9",
+			"key": "72"
+		}
+	]
+}

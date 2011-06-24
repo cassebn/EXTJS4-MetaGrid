@@ -1,0 +1,49 @@
+HTML, BODY {
+	font: normal 12px tahoma;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+}
+
+.a {
+	color: #1C3B76; /*#ff9900*/
+	text-decoration: none;
+}
+
+.a:hover {
+	color: #1C3B76;
+	text-decoration: underline;
+}
+
+.icon-add {
+    background-image: url("../images/add.png") !important;
+}
+.icon-info {
+    background-image: url("../images/information.png") !important;
+}
+.icon-actions {
+    background-image: url("../images/cog.png") !important; padding-left: 20px !important;
+}
+.icon-find {
+    background-image: url("../images/find.png") !important;
+}
+.icon-grid {
+    background-image: url("../images/grid.png") !important;
+}
+.icon-form {
+    background-image: url("../images/application_form.png") !important;
+}
+.icon-accept {
+    background-image: url("../images/accept.png") !important; padding-left: 20px !important;
+}
+.icon-delete {
+    background-image: url("../images/delete.png") !important; !important; background-repeat: no-repeat;
+}
+.icon-cancel {
+    background-image: url("../images/cross.png") !important; padding-left: 20px !important;
+}
+.icon-refresh-small {
+    background-image: url("../images/arrow_refresh_small.png") !important; padding-left: 20px !important;
+}

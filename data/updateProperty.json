@@ -1,0 +1,14 @@
+{
+    success: true,
+    message: 'You have successfuly updated a property.',
+    data: [{
+			"PRPTY_OWNR_ID": "PROD_TYPE_CD",
+			"PRPTY_VAL_TXT": "04",
+			"PRPTY_ID": "273",
+			"PRPTY_ATMTC_LOAD_CD": "N",
+			"PRPTY_NM": "4",
+			"PRPTY_DESC": "NA",
+			"PRPTY_INIT_VAL_TXT": "4",
+			"key": "273"
+		}]
+}
